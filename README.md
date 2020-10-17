@@ -21,10 +21,11 @@ Web Server nya adalah `nginx`
 
 #### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 Ketik pada Filter Display dengan `http.authbasic`.
+
 <img src="https://user-images.githubusercontent.com/61219556/96327884-edaac600-1067-11eb-9074-b0b077d8aae6.PNG" width="500" height="auto">
 
 #### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 - ketik pada Filter Display `ip.dst==157.245.50.224&&http`.
 - Pilih salah satu paket yang muncul. Kemudian, pilih Hypertext Transfer Protocol.
 - Pilih pada bagian Authorization. Disitu akan muncul username dan password untuk login pada `aku.pengen.pw`.
-<img src="https://user-images.githubusercontent.com/61219556/96328085-88f06b00-1069-11eb-8be5-4b7fe548e450.PNG" width="500" height"auto">
+<img src="https://user-images.githubusercontent.com/61219556/96328085-88f06b00-1069-11eb-8be5-4b7fe548e450.PNG" width="500" height="auto">
