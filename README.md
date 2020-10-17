@@ -29,3 +29,6 @@ Ketik pada Filter Display dengan `http.authbasic`.
 - Pilih salah satu paket yang muncul. Kemudian, pilih Hypertext Transfer Protocol.
 - Pilih pada bagian Authorization. Disitu akan muncul username dan password untuk login pada `aku.pengen.pw`.
 <img src="https://user-images.githubusercontent.com/61219556/96328085-88f06b00-1069-11eb-8be5-4b7fe548e450.PNG" width="500" height="auto">
+
+- Setelah login, web akan menampilkan halaman berupa soal seperti di bawah ini 
+<img src="https://user-images.githubusercontent.com/61219556/96328239-dcaf8400-106a-11eb-93e0-0a93e52548a3.PNG" width="500" height="auto">
