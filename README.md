@@ -17,4 +17,4 @@ Web Server nya adalah `nginx`
 #### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 - Ketik di Filter Display dengan `http.request.method==POST`
 - Akan muncul 1 paket, lalu klik `HTML Form URL Encoded: application/x-www-form-urlencoded`. Maka disitu akan muncul username dan password yang dicari.
-
+<img src="https://user-images.githubusercontent.com/61219556/96327643-94419780-1065-11eb-882f-94d073c84220.PNG" width="500" height="auto">
