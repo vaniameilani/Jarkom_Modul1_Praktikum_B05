@@ -13,3 +13,8 @@ Web Server nya adalah `nginx`
 - Klik File, lalu pilih Export Objects HTTP.
 - Cari gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg", lalu klik file gambar dan save.
 <img src="https://user-images.githubusercontent.com/61219556/96327425-a91d2b80-1063-11eb-8c91-a170c91452b4.jpg" width="500" height="auto">
+
+#### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
+- Ketik di Filter Display dengan `http.request.method==POST`
+- Akan muncul 1 paket, lalu klik `HTML Form URL Encoded: application/x-www-form-urlencoded`. Maka disitu akan muncul username dan password yang dicari.
+
