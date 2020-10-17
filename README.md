@@ -47,20 +47,28 @@ Setelah berhasil diekstrak, lalu buka file `Open This.pdf`. Hasilnya sebagai ber
 #### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf".
 - Ketik pada Display Filter dengan `ftp-data && frame contains "Yes.pdf"`.
 <img src="https://user-images.githubusercontent.com/61219556/96352161-62731400-10eb-11eb-8392-540b6dd9ef6d.PNG" width="500" height="auto">
-
 - Pilih salah satu folder zip, lalu klik kanan untuk pilih follow TCP stream.
 - Pada "show and save data as" ganti dengan `raw`. Lalu, save as `473.zip`. 
 - Ekstrak zip tersebut lalu buka file `Yes.pdf` dan hasilnya sebagai berikut 
 <img src="https://user-images.githubusercontent.com/61219556/96352240-e2997980-10eb-11eb-84ab-bb4425a5a299.PNG" width="500" height="auto">
 
 #### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+- Ketik pada Display Filter dengan `ftp contains "Microsoft"` untuk mendapatkan IP address dari Microsoft FTP Service.
+<img src="https://user-images.githubusercontent.com/61219556/96352269-37d58b00-10ec-11eb-9fa8-3c4a92f2f7de.PNG" width="500" height="auto">
+- Pilih IP bagian destination, lalu ketik kembali pada Display Filter untuk mencari objek apa saja yang didownload menggunakan `RETR`. Hasilnya seperti berikut 
+<img src="https://user-images.githubusercontent.com/61219556/96352369-c2b68580-10ec-11eb-849b-3a8972aef9bb.PNG" width="500" height="auto">
+
 #### 9. Cari username dan password ketika login FTP pada localhost!
 Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.command==USER`. Lalu, akan muncul paket-paket dengan isi username dan password saat login FTP pada localhost.
 
 <img src="https://user-images.githubusercontent.com/61219556/96328451-62343380-106d-11eb-9daf-37ed212a6a3b.PNG" width="500" height="auto">
 
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46".
-
+- Ketik pada Display Filter dengan `http contains".pdf"`
+<img src="https://user-images.githubusercontent.com/61219556/96352430-46707200-10ed-11eb-8f20-d66720867b67.PNG" width="500" height="auto">
+- Klik ctrl+f untuk ketik clue `25 50 44 46`. Lalu, klik kanan untuk pilih follow TCP stream.
+- Pada "show and save data as" ganti dengan `raw`. Lalu, save as `1759.pdf`. Setelah file dibuka akan menampilkan sebagai berikut
+<img src="https://user-images.githubusercontent.com/61219556/96352440-5b4d0580-10ed-11eb-9d2a-fe4245b3200d.PNG" width="500" height="auto">
 
 ## B. Capture Filter
 #### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
