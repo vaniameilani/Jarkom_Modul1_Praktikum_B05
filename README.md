@@ -38,6 +38,7 @@ Ketik pada Filter Display dengan `http.authbasic`.
 #### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 #### 9. Cari username dan password ketika login FTP pada localhost!
 Ketik pada Filter Display dengan `ftp.request.command==PASS || ftp.request.command==USER`. Lalu, akan muncul paket-paket dengan isi username dan password saat login FTP pada localhost.
+
 <img src="https://user-images.githubusercontent.com/61219556/96328451-62343380-106d-11eb-9daf-37ed212a6a3b.PNG" width="500" height="auto">
 
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46".
