@@ -21,6 +21,7 @@ Web Server nya adalah `nginx`
 
 #### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 Ketik pada Filter Display dengan `http.authbasic`
+![4](https://user-images.githubusercontent.com/61219556/96327884-edaac600-1067-11eb-9074-b0b077d8aae6.PNG)
 <img src="https://user-images.githubusercontent.com/61219556/96327884-edaac600-1067-11eb-9074-b0b077d8aae6.PNG" width="500" height="auto">
 
 #### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
