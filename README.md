@@ -37,9 +37,11 @@ Ketik pada Display Filter dengan `http.authbasic`.
 - Ketik pada Display Filter dengan `ftp-data`. 
 - Klik ctrl+f untuk mencari `Answer.zip`. Lalu, klik kanan untuk pilih follow TCP stream.
 - Pada "show and save data as" ganti dengan `raw`. Lalu, save as `Answer.zip`. 
-- Tahap-tahap diatas sama halnya dalam pencari file `zipkey.txt`. Buka file tersebut dan menampilkan isi password untuk membuka folder `Answer.zip`.
+- Tahap-tahap diatas sama halnya dalam pencari file `zipkey.txt`. Buka file tersebut dan menampilkan isi password untuk meng-ekstrak folder `Answer.zip`.
 <img src="https://user-images.githubusercontent.com/61219556/96352048-8f72f700-10ea-11eb-9304-3a829a5ecf5b.PNG" width="500" height="auto">
 
+Setelah berhasil diekstrak, lalu buka file `Open This.pdf`. Hasilnya sebagai berikut
+<img src="https://user-images.githubusercontent.com/61219556/96352116-090ae500-10eb-11eb-95de-25ad8d79e5a6.png" width="500" height="auto">
 
 #### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 #### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
