@@ -67,9 +67,9 @@ Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.comma
 
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46".
 - Ketik pada Display Filter dengan `http contains".pdf"`
+- Klik ctrl+f untuk ketik clue `25 50 44 46`. Lalu, klik kanan untuk pilih follow TCP stream.
 <img src="https://user-images.githubusercontent.com/61219556/96352440-5b4d0580-10ed-11eb-9d2a-fe4245b3200d.PNG" width="500" height="auto">
 
-- Klik ctrl+f untuk ketik clue `25 50 44 46`. Lalu, klik kanan untuk pilih follow TCP stream.
 - Pada "show and save data as" ganti dengan `raw`. Lalu, save as `1759.pdf`. Setelah file dibuka akan menampilkan sebagai berikut
 <img src="https://user-images.githubusercontent.com/61219556/96352485-a9fa9f80-10ed-11eb-94bc-9c9ceaa73d00.PNG" width="500" height="auto">
 
