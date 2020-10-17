@@ -32,3 +32,12 @@ Ketik pada Filter Display dengan `http.authbasic`.
 
 - Setelah login, web akan menampilkan halaman berupa soal seperti di bawah ini 
 <img src="https://user-images.githubusercontent.com/61219556/96328239-dcaf8400-106a-11eb-93e0-0a93e52548a3.PNG" width="500" height="auto">
+
+#### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
+#### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+#### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+#### 9. Cari username dan password ketika login FTP pada localhost!
+Ketik pada Filter Display dengan `ftp.request.command==PASS || ftp.request.command==USER`. Lalu, akan muncul paket-paket dengan isi username dan password saat login FTP pada localhost.
+
+#### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46".
+
