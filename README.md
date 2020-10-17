@@ -48,6 +48,11 @@ Setelah berhasil diekstrak, lalu buka file `Open This.pdf`. Hasilnya sebagai ber
 - Ketik pada Display Filter dengan `ftp-data && frame contains "Yes.pdf"`.
 <img src="https://user-images.githubusercontent.com/61219556/96352161-62731400-10eb-11eb-8392-540b6dd9ef6d.PNG" width="500" height="auto">
 
+- Pilih salah satu folder zip, lalu klik kanan untuk pilih follow TCP stream.
+- Pada "show and save data as" ganti dengan `raw`. Lalu, save as `473.zip`. 
+- Ekstrak zip tersebut lalu buka file `Yes.pdf` dan hasilnya sebagai berikut 
+<img src="https://user-images.githubusercontent.com/61219556/96352240-e2997980-10eb-11eb-84ab-bb4425a5a299.PNG" width="500" height="auto">
+
 #### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 #### 9. Cari username dan password ketika login FTP pada localhost!
 Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.command==USER`. Lalu, akan muncul paket-paket dengan isi username dan password saat login FTP pada localhost.
