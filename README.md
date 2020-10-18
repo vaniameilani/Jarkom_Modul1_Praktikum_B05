@@ -75,8 +75,27 @@ Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.comma
 
 ## B. Capture Filter
 #### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+- pilih `Adapter for loopback traffic capture` pada Wireshark 
+- Lalu, ketik `port 21` pada Capture Filter, lalu enter.
+- Untuk mendapatkan paket-paketnya, maka perlu aktivitas dari localhost untuk menaktifkan FTP, karena port 21 adalah port dari FTP.
+Sehingga hasilnya sebagai berikut 
+
+<img src="https://user-images.githubusercontent.com/61219556/96372051-40cb6880-118f-11eb-8872-3c18cfb3ea3f.PNG" width="500" height="auto">
+
 #### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+- Port 80 adalah port dari web dengan jenis HTTP. 
+- Karena yang dicari adalah **berasal dari port 80** maka dapat ketik `src port 80` pada Capture Filter, lalu enter.
+- Untuk mendapatkan paket-paketnya, maka perlu mengakses web dengan jenis HTTP. Sehingga, hasilnya sebagai berikut 
+
+<img src="https://user-images.githubusercontent.com/61219556/96372327-89375600-1190-11eb-9b20-3e06bef9e217.PNG" width="500" height="auto">
+
 #### 13.Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+- Port 443 adalah port dari web dengan jenis HTTPS. 
+- Karena yang dicari adalah **menuju port 443** maka dapat ketik `dst port 443` pada Capture Filter, lalu enter.
+- Untuk mendapatkan paket-paketnya, maka perlu mengakses web dengan jenis HTTPS. Sehingga, hasilnya sebagai berikut 
+
+<img src="https://user-images.githubusercontent.com/61219556/96372387-c00d6c00-1190-11eb-952f-90a670be9b34.PNG" width="500" height="auto">
+
 #### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 - IP address dapat dicari pada Command Prompt dengan ketik `ipconfig`. 
 <img src="https://user-images.githubusercontent.com/61219556/96358165-46dd2d00-112e-11eb-8bf7-ec6f5cfeef92.PNG" width="500" height="auto">
