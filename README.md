@@ -78,4 +78,22 @@ Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.comma
 #### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 #### 13.Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 #### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+- IP address dapat dicari pada Command Prompt dengan ketik `ipconfig`. 
+<img src="https://user-images.githubusercontent.com/61219556/96358165-46dd2d00-112e-11eb-8bf7-ec6f5cfeef92.PNG" width="500" height="auto">
+
+- Ketik pada Capture Filter di Wireshark dengan `src host 192.168.100.237`
+<img src="https://user-images.githubusercontent.com/61219556/96358123-e1893c00-112d-11eb-936a-afd90805b3e9.PNG" width="500" height="auto">
+
+Hasilnya sebagai berikut
+<img src="https://user-images.githubusercontent.com/61219556/96358156-2f05a900-112e-11eb-81f6-f91fb1535f1c.PNG" width="500" height="auto">
+
 #### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+- Mencari terlebih dahulu IP address `monta.if.its.ac.id` melalui Command Prompt
+<img src="https://user-images.githubusercontent.com/61219556/96358200-c834bf80-112e-11eb-9782-be69767135c6.PNG" width="500" height="auto">
+
+- Ketik pada Capture Filter di Wireshark dengan `dst host 103.94.190.11`
+<img src="https://user-images.githubusercontent.com/61219556/96358225-0500b680-112f-11eb-828e-5b5ce2de859f.PNG" width="500" height="auto">
+
+Hasilnya sebagai berikut 
+<img src="https://user-images.githubusercontent.com/61219556/96358232-1944b380-112f-11eb-96b3-639c82096ec6.PNG" width="500" height="auto">
+
