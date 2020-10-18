@@ -81,7 +81,7 @@ Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.comma
 - IP address dapat dicari pada Command Prompt dengan ketik `ipconfig`. 
 <img src="https://user-images.githubusercontent.com/61219556/96358165-46dd2d00-112e-11eb-8bf7-ec6f5cfeef92.PNG" width="500" height="auto">
 
-- Ketik pada Capture Filter di Wireshark dengan `src host 192.168.100.237`
+- Karena yang dicari adalah paket yang **berasal dari IP** maka ketik pada Capture Filter di Wireshark dengan `src host 192.168.100.237`. 
 <img src="https://user-images.githubusercontent.com/61219556/96358123-e1893c00-112d-11eb-936a-afd90805b3e9.PNG" width="500" height="auto">
 
 Hasilnya sebagai berikut
@@ -92,7 +92,7 @@ Hasilnya sebagai berikut
 - Mencari terlebih dahulu IP address `monta.if.its.ac.id` melalui Command Prompt
 <img src="https://user-images.githubusercontent.com/61219556/96358200-c834bf80-112e-11eb-9782-be69767135c6.PNG" width="500" height="auto">
 
-- Ketik pada Capture Filter di Wireshark dengan `dst host 103.94.190.11`
+- Karena yang dicari adalah **tujuan ke** `monta.if.its.ac.id` maka ketik pada Capture Filter di Wireshark dengan `dst host 103.94.190.11`
 <img src="https://user-images.githubusercontent.com/61219556/96358225-0500b680-112f-11eb-828e-5b5ce2de859f.PNG" width="500" height="auto">
 
 Hasilnya sebagai berikut 
