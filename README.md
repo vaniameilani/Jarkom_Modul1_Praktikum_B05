@@ -85,6 +85,7 @@ Ketik pada Display Filter dengan `ftp.request.command==PASS || ftp.request.comma
 <img src="https://user-images.githubusercontent.com/61219556/96358123-e1893c00-112d-11eb-936a-afd90805b3e9.PNG" width="500" height="auto">
 
 Hasilnya sebagai berikut
+
 <img src="https://user-images.githubusercontent.com/61219556/96358156-2f05a900-112e-11eb-81f6-f91fb1535f1c.PNG" width="500" height="auto">
 
 #### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
@@ -95,5 +96,6 @@ Hasilnya sebagai berikut
 <img src="https://user-images.githubusercontent.com/61219556/96358225-0500b680-112f-11eb-828e-5b5ce2de859f.PNG" width="500" height="auto">
 
 Hasilnya sebagai berikut 
+
 <img src="https://user-images.githubusercontent.com/61219556/96358232-1944b380-112f-11eb-96b3-639c82096ec6.PNG" width="500" height="auto">
 
